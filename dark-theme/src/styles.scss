@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+.light-theme {
+    --global-bg-color: #ffffff;
+    --global-text-color: #000000;
+
+    --component1-bg-color: aqua;
+    --component1-text-color: #000000;
+
+    --component2-bg-color: greenyellow;
+    --component2-text-color: #000000;
+}
+
+.dark-theme {
+    --global-bg-color: #1e1e1e;
+    --global-text-color: #ffffff;
+
+    --component1-bg-color: grey;
+    --component1-text-color: #ffffff;
+
+    --component2-bg-color: grey;
+    --component2-text-color: #ffffff;
+}
+
+body {
+    background-color: var(--global-bg-color);
+    color: var(--global-text-color);
+}
